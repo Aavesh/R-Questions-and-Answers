@@ -9,16 +9,16 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><p>Q1 ) Consider following vector wheel:</p>
+  <div class="stackedit__html"><p><strong>Q1 ) Consider following vector wheel:</strong></p>
 <p>wheel &lt;- c(“DD”,“7”,“BBB”,“BB”,“B”,“c”,“0”)</p>
 <p>For above vector make a data frame that contains every possible combination of three symbols from the wheel vector.</p>
 <p>Ans) Using expand.grid() this can be achieved with single line of code.</p>
 <p>combos&lt;- expand.grid(wheel,wheel,wheel,stringAsFactors=FALSE)</p>
 <p>combos</p>
-<p>Q2) How sorting sort() is done in R? Is it similar to C language?</p>
+<p><strong>Q2) How sorting sort() is done in R? Is it similar to C language?</strong></p>
 <p>Ans) To sort a dataframe in R, use the order( ) function. By default, sorting is <a href="http://ASCENDING.To">ASCENDING.To</a> sort in descending order we can pass decreasing=TRUE.</p>
 <p>R performs lexicographic sorting as opposed to C language,which sort in ASCII order. This means that the sort order will depend upon the locale of the machine the codes run on. In other words ,the sort order may be different if the machine running R is configured to Danish then it will if the machine is configured to use English.</p>
-<p>Q3) Explain R Data Frame ?</p>
+<p><strong>Q3) Explain R Data Frame ?</strong></p>
 <p>Ans 3) Data Frames are the two dimensional version of a list.You can think of a data frame as R’s equivalent to the Excel spreadsheet because it stores data in similar format</p>
 <p>Following are the characteristics of a data frame.</p>
 <ul>
@@ -35,7 +35,7 @@
 <p>Each column should contain same number of data items.</p>
 </li>
 </ul>
-<p>Q4) What are different data data structures in R? Explain them too?</p>
+<p><strong>Q4) What are different data data structures in R? Explain them too?</strong></p>
 <p>Ans) R has following Data structures</p>
 <ol>
 <li>
@@ -54,7 +54,7 @@
 <p>Data frame</p>
 </li>
 </ol>
-<p>Q5) Imagine you counted the birds in your backyard on three different days and store the count in the matrix</p>
+<p><strong>Q5) Imagine you counted the birds in your backyard on three different days and store the count in the matrix</strong></p>
 <p>like this</p>
 <p>counts&lt;- matrix(c(2,3,4,8,4,5,2,3,4),ncol=3)</p>
 <p>colnames(counts)&lt;- c(“sparrows”,“crow”,“owl”)</p>
@@ -69,12 +69,12 @@
 <p>–variable is the variable you want to apply the function to.</p>
 <p>–margin specifies if you want to apply by row (margin = 1), by column (margin = 2), or for each element (margin = 1:2). Margin can be even greater than 2, if we work with variables of dimension greater than two.</p>
 <p>–function is the function you want to apply to the elements of your variable</p>
-<p>Q6) What are different ways of specifying the subset in R?</p>
+<p><strong>Q6) What are different ways of specifying the subset in R?</strong></p>
 <p>Ans6) Subsetting is a very important component of data management and there are several ways that one can subset data in R.Consider a vector x:</p>
 <p>x &lt;- c(2.1, 4.2, 3.3, 5.4,6.5)</p>
 <p>Table below illustrates the five way of specifying the subset elements.</p>
 <p><img src="https://lh5.googleusercontent.com/uV0zGmf3tqL-3b6aAJ0TtWakQJUbAKPfXbEAnuxgwgdHq7UnM8dAt1EJYJuHAbZ_RbqegVoEAUv6VhvHmEBRO1qe2N-aqsiDxl1G6BtyqCVDwCScHM-1jWznQUjc7k0xAvyZz2bM" alt=""></p>
-<p>Q7) Explain merge() function and how it is similar to database join ?</p>
+<p><strong>Q7) Explain merge() function and how it is similar to database join ?</strong></p>
 <p>Ans) Merge function is used to combine data frames. The merge function allows 4 ways of combining data,just like the database join.</p>
 <ul>
 <li>
@@ -90,7 +90,7 @@
 <p>Right outer join:To include all the rows of your data frame y and only those from x that match, specify y=TRUE.</p>
 </li>
 </ul>
-<p>Q8) Consider a plain text file poker.csv with introductory text that is not part of the dataset . Below find the content of poker.csv as shaded.</p>
+<p><strong>Q8) Consider a plain text file poker.csv with introductory text that is not part of the dataset . Below find the content of poker.csv as shaded.</strong></p>
 <p>This is test data to give a example</p>
 <p>We accidentally repeated the last row of data</p>
 <p>“Card” , “suit” , “value”</p>
@@ -101,19 +101,19 @@
 <p>“Jack”,”spades”,””10”</p>
 <p>Using read.table(),write a code in R that will read just the 5 lines(4 rows plus a header)</p>
 <p>Ans) read.table(“poker.csv”, sep=",",header=TRUE,skip=3,nrows=5)</p>
-<p>Q9) Which of these are character strings 1, “1” , and “one”</p>
+<p><strong>Q9) Which of these are character strings 1, “1” , and “one”</strong></p>
 <p>Ans ) a) 1 b) only “one”</p>
 <p>c) only “1” d) “1” and “one” are character strings</p>
-<p>Q10)From where does indexing starts in R vectors ?</p>
+<p><strong>Q10)From where does indexing starts in R vectors ?</strong></p>
 <p>Ans) The vector indices in R starts with 1. This is opposite to most the the programing language such as C where indices start at 0.</p>
-<p>Q11) Explain dim(x) function in R ? Give a example to support.</p>
+<p><strong>Q11) Explain dim(x) function in R ? Give a example to support.</strong></p>
 <p>Ans) The dim function of the R programming language returns the dimension (e.g. the number of columns and rows) of a matrix, array or dataframe.</p>
 <p>Example:</p>
 <p>x&lt;-c(2,3,4,5,6,7,8,9,0)</p>
 <p>y&lt;-c(2,2,2,2,2,2,2,2,2)</p>
 <p>data&lt;-data.frame(x,y)</p>
 <p>dim(data)</p>
-<p>Q12) Explain traceback in R?</p>
+<p><strong>Q12) Explain traceback in R?</strong></p>
 <p>Ans) Traceback returns a call stack, a list of functions that R called in the order that it called them. The top function will be the function that caused the error and the bottom function will be the command you entered in command line.</p>
 <p>Q13) How to load a package in your R session?</p>
 <p>Ans) To use an R package ,one need to use the following command :</p>
