@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>R Questions</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
 
-<body class="stackedit">
-  <div class="stackedit__html"><p><strong>Q1 ) Consider following vector wheel:</strong></p>
+---
+
+<p><strong>Q1 ) Consider following vector wheel:</strong></p>
 <p>wheel &lt;- c(“DD”,“7”,“BBB”,“BB”,“B”,“c”,“0”)</p>
 <p>For above vector make a data frame that contains every possible combination of three symbols from the wheel vector.</p>
 <p>Ans) Using expand.grid() this can be achieved with single line of code.</p>
@@ -474,7 +468,4 @@
 <p>Size</p>
 </li>
 </ul>
-</div>
-</body>
 
-</html>
