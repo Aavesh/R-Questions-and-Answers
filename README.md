@@ -114,7 +114,7 @@
 <p>library(package name)</p>
 <p>To see which packages you currently have in your library, run following command in command line:</p>
 <p>library()</p>
-<p>Q14) R has various commands for cumulative statistics . Explain following commands with examples?</p>
+<p><strong>Q14) R has various commands for cumulative statistics . Explain following commands with examples?</strong></p>
 <ol>
 <li>cumsum(x) b) cummax(x)</li>
 </ol>
@@ -126,7 +126,7 @@
 <p>cummax(x)</p>
 <p>The output of above command is shown below:</p>
 <p><img src="https://lh5.googleusercontent.com/nCfe5fjmrTm1RgNBl24zggdQAfW9InVKRV8gs8i-kXsfHhLpJvRfOmCG0zF-3uyvk7icrxEF2pxjFAo13tNpUSkJdAQKDjk30_-hJPYi-DB2kBomcsq_d2ce2k7Spt5k7kweumC4" alt=""></p>
-<p>Q15) Dplyr is one of important libraries of R, name few important functions of this library?</p>
+<p><strong>Q15) Dplyr is one of important libraries of R, name few important functions of this library?</strong></p>
 <p>Ans) The R package dplyr is an extremely useful resource for data cleaning, manipulation, visualisation and analysis.Below are some of the imp. Functions in dplyr</p>
 <p>select()</p>
 <p>filter()</p>
@@ -135,17 +135,17 @@
 <p>summarise()</p>
 <p>arrange()</p>
 <p>join()</p>
-<p>Q16) Explain the functionality of set.seed() in R?</p>
+<p><strong>Q16) Explain the functionality of set.seed() in R?</strong></p>
 <p>Ans) Set the seed of R‘s random number generator, which is useful for creating simulations or random objects that can be reproduced.You have to set seed every time you want to get a reproducible random result.</p>
 <p>set.seed(1)</p>
 <p>rnorm(4)</p>
 <p>set.seed(1)</p>
 <p>rnorm(4)</p>
-<p>Q17) What is the output of following task</p>
-<p>x=“ABC”</p>
-<p>class(x)</p>
+<p><strong>Q17) What is the output of following task ?<br>
+x=“ABC”<br>
+class(x)</strong></p>
 <p>Ans) [1] “character”</p>
-<p>Q18) What is rattle library in R?</p>
+<p><strong>Q18) What is rattle library in R?</strong></p>
 <p>Ans18) Rattle is a popular GUI for data mining using R. It presents statistical and visual summaries of data, transforms data so that it can be readily modeled, builds both unsupervised and supervised machine learning models from the data, presents the performance of models graphically, and scores new datasets for deployment into production.</p>
 <p>A key feature is that all of your interactions through the graphical user interface are captured as an R script that can be readily executed in R independently of the Rattle interface.</p>
 <p>Q19)List few commands in R that are used for debugging?</p>
@@ -154,7 +154,7 @@
 <p>recover()</p>
 <p>setBreakpoint()</p>
 <p>traceback().</p>
-<p>Q20) How to find missing values in dataset in R?</p>
+<p><strong>Q20) How to find missing values in dataset in R?</strong></p>
 <p>Ans20) In R , missed values is represented as NA. To find missing values in dataset use function <a href="http://is.na">is.na</a>().</p>
 <p>Example:</p>
 <p>month &lt;- c(“jan”, “feb”, NA)</p>
@@ -163,7 +163,7 @@
 <p><a href="http://is.na">is.na</a>(dt)</p>
 <p>Output :</p>
 <p><img src="https://lh4.googleusercontent.com/mXhI6EEa97oHpb_cpC9_NYgzmvEmZmUvS04RnM5Sj0kTaINCxzEN3zB3oPeViPODqVYvE3L5jVlv3vDbM5rwa3mecuhQOlbX4Hrgd0sDr2qiIEnQOVbjl1_lyk7GZDgNQ3EYidSF" alt=""></p>
-<p>Q21) What will be the output of below codes in R:</p>
+<p><strong>Q21) What will be the output of below codes in R:</strong></p>
 <p>month &lt;- c(“jan”, “feb”, “mar”)</p>
 <p>all_months&lt;-c(“jan”, “feb”,</p>
 <p>“mar”,“apr”,“may”,“june”,“july”,“aug”,“sep”,“oct”,“nov”,“dec”)</p>
